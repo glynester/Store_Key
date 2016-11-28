@@ -10,11 +10,9 @@ require 'cgi'
     key_to_set = parsarr[0]
     @key_set = key_to_set[0]
     @val_set = key_to_set[1]
-    p params
     if validate
       session[@key_set] = @val_set
     end
-
   end
 
   private

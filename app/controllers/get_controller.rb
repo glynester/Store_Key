@@ -8,7 +8,7 @@ class GetController < ApplicationController
     val_to_get = parsarr[0]
     @key_get = val_to_get[1]
     @val_get = session[@key_get]
-    if validate
+    if validate #Future dev work. User gets redirected to a url so that the key and value can be retrieved.
       # redirect_to "/keys?#{@key_get}=#{@val_get}"
     end
   end

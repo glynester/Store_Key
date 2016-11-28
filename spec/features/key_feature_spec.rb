@@ -11,16 +11,16 @@ feature 'keys' do
 
   context 'Set a key' do
     scenario 'should display a message showing the key you passed' do
-      visit '/set?somekey=somevalue'
-      expect(page).to have_content 'The value of "somekey" key you pased is: "somevalue"'
+      visit '/set?bluekey=bluevalue'
+      expect(page).to have_content 'The value of "bluekey" key you pased is: "bluevalue"'
     end
   end
 
   context 'Get a key' do
     scenario 'should display a message showing the key retrieved' do
-      visit '/set?somekey=somevalue'
-      visit '/get?somekey=somevalue'
-      expect(page).to have_content 'The value of "somekey" key has been retrieved and it is: "somevalue"'
+      visit '/set?greenkey=greenvalue'
+      visit '/get?key=greenkey'
+      expect(page).to have_content 'The value of the "greenkey" key has been retrieved and it is: "greenvalue"'
     end
   end
 

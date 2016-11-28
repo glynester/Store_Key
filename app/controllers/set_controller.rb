@@ -9,9 +9,7 @@ require 'cgi'
     key_to_set = parsarr[0]
     @key_set = key_to_set[0]
     @val_set = key_to_set[1]
-    # p parsarr
-    # p "The key is #{@key_is} and the value is  #{@val_is}!!!"
-    session[:@key_is] = @val_set
+    session[@key_set] = @val_set
   end
 
 end

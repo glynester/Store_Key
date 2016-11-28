@@ -1,3 +1,28 @@
+APP USAGE:
+This app stores a key and value pair in session variables.
+Set the key and value using the following url
+(subsitute "key123" for your key and "value123" for your value):
+http://localhost:4000/set?key123=value123
+
+Retrieve the value of the key you have previously stored using the following url
+(subsitute "key123" for your key to retrieve your value):
+http://localhost:4000/get?key=key123
+
+APP MISUSAGE:
+If you do not correctly set a key value pair you will be redirected to an information page.
+If you do not correctly retrieve a key value pair you will be redirected to an information page.
+
+APPROACH:
+This app is built using Ruby on Rails.
+Routes were manually configured rather than configured by Rails using "resources".
+
+DOWNLOADING AND RUNNING CODE:
+
+RUNNING TESTS:
+Type "rspec" in console.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Database server tech test
 Today we will practice a tech test to demonstrate your understanding of web technologies. This is an actual tech test that was given to one of our coaches when they applied for a dev role.
 

@@ -4,3 +4,9 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+
+# Call "rake server" instead of "rails server"
+task "server" => :environment do
+  system 'rails server -p 4000'
+end

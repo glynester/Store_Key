@@ -18,8 +18,9 @@ Routes were manually configured rather than configured by Rails using "resources
 Capybara for used for testing the app.
 
 **DOWNLOADING AND RUNNING CODE:**  
+
 '''
-$ git clone https://github.com/James-SteelX/Database_tech_test.git
+$ git clone https://github.com/glynester/Store_Key
 $ cd Database_tech_test
 $ bundle
 $ ruby app.rb
@@ -30,6 +31,7 @@ Follow the instructions as per "APP USAGE" above.
 
 **RUNNING TESTS:**  
 To run tests, from the command line ensure you are in the project directory and run:
+
 '''
 $ rspec
 '''

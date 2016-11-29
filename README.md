@@ -23,11 +23,11 @@ Capybara for used for testing the app.
 $ git clone https://github.com/glynester/Store_Key  
 $ cd Store_Key  
 $ bundle  
-$ ruby app.rb  
+$ rake server  
 ```
 
 Visit http://localhost:4000/info in your preferred browser
-Follow the instructions as per "APP USAGE" above. 
+Follow the instructions as per "APP USAGE" above or the instructions on the info page. 
 
 **RUNNING TESTS:**  
 To run tests, from the command line ensure you are in the project directory and run:

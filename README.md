@@ -1,11 +1,9 @@
 ##**APP USAGE:**  
 This app stores a key and value pair (passed to it via the url) in session variables.  
-Set the key and value using the following url  
-(subsitute "key123" for your key and "value123" for your value):  
+Set the key and value using the following url (subsitute "key123" for your key and "value123" for your value):  
 http://localhost:4000/set?key123=value123  
 
-Retrieve the value of the key you have previously stored using the following url  
-(subsitute "key123" for your key to retrieve your value):  
+Retrieve the value of the key you have previously stored using the following url (subsitute "key123" for your key to retrieve your value):  
 http://localhost:4000/get?key=key123  
 
 ##**APP MISUSAGE:**  

@@ -1,4 +1,4 @@
-**APP USAGE:**  
+##**APP USAGE:**  
 This app stores a key and value pair (passed to it via the url) in session variables.
 Set the key and value using the following url
 (subsitute "key123" for your key and "value123" for your value):
@@ -8,16 +8,16 @@ Retrieve the value of the key you have previously stored using the following url
 (subsitute "key123" for your key to retrieve your value):
 http://localhost:4000/get?key=key123
 
-**APP MISUSAGE:**  
+##**APP MISUSAGE:**  
 If you do not correctly set a key value pair you will be redirected to an information page.
 If you do not correctly retrieve a key value pair you will be redirected to an information page.
 
-**APPROACH:**  
+##**APPROACH:**  
 This app is built using Ruby on Rails.
 Routes were manually configured rather than configured by Rails using "resources".
 Capybara for used for testing the app.
 
-**DOWNLOADING AND RUNNING CODE:**  
+##**DOWNLOADING AND RUNNING CODE:**  
 
 ```
 $ git clone https://github.com/glynester/Store_Key  
@@ -29,7 +29,7 @@ $ rake server
 Visit http://localhost:4000/info in your preferred browser
 Follow the instructions as per "APP USAGE" above or the instructions on the info page. 
 
-**RUNNING TESTS:**  
+##**RUNNING TESTS:**  
 To run tests, from the command line ensure you are in the project directory and run:
 
 ```

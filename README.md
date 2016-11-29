@@ -21,7 +21,7 @@ Capybara for used for testing the app.
 
 ```
 $ git clone https://github.com/glynester/Store_Key  
-$ cd Database_tech_test  
+$ cd Store_Key  
 $ bundle  
 $ ruby app.rb  
 ```

@@ -20,10 +20,10 @@ Capybara for used for testing the app.
 **DOWNLOADING AND RUNNING CODE:**  
 
 '''
-$ git clone https://github.com/glynester/Store_Key
-$ cd Database_tech_test
-$ bundle
-$ ruby app.rb
+$ git clone https://github.com/glynester/Store_Key  
+$ cd Database_tech_test  
+$ bundle  
+$ ruby app.rb  
 '''
 
 Visit http://localhost:4000/info in your preferred browser
@@ -33,7 +33,7 @@ Follow the instructions as per "APP USAGE" above.
 To run tests, from the command line ensure you are in the project directory and run:
 
 '''
-$ rspec
+$ rspec  
 '''
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

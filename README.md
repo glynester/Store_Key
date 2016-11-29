@@ -16,7 +16,7 @@ If you do not correctly retrieve a key value pair you will be redirected to an i
 
 ##**APPROACH:**  
 This app is built using Ruby on Rails.  
-Routes were manually configured rather than configured by Rails using "resources".  
+Routes were manually configured rather than automatically configured by Rails using "resources".  
 Capybara for used for testing the app.  
 
 ##**DOWNLOADING AND RUNNING CODE:**  
